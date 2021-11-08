@@ -1,32 +1,89 @@
-nav {
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	width: 80%; /* use 80% of the screen */
-}
-
-nav ul {
-	margin: 0;
-	padding: 0;
-}
-
-nav ul li {
-	float: left;
-	list-style-type: none; /* delete bullet point */
-}
-
-nav ul li a {
-	width: 15vw; /*15 viewport width, so each box has the same width*/
-	display: block;
-	background-color: #006400;
-	color: #f2f2f2;
+.container {
 	text-align: center;
-	text-decoration: none; /* delete underline */
-	padding: 30px;
+	justify-content: center;
+}
+
+/* I like large text */
+p {
+	font-size: large;
+}
+
+h1 {
+	font-weight: bolder;
+}
+
+section {
+	padding-top: 100px;
+}
+
+.card {
+	text-align: center;
+}
+
+.img-about {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+
+.about-me-stats {
+	padding: 50px;
+}
+
+/* Resume Style */
+.resume-section .row {
+	text-align: left;
+}
+
+.resume-section .resume-summary {
+	text-align: center;
+}
+
+.resume-section h2,
+h3,
+i {
+	font-weight: bold;
+}
+
+.resume-section h1 {
+	text-align: center;
+}
+
+.resume-section i {
+	font-size: 14px;
+	background-color: rgba(252, 227, 0, 0.397);
+}
+
+.resume-section h3 {
 	font-size: 20px;
 }
 
-nav a:hover {
-	background-color: #ffa500;
-	color: #040404;
+.resume-section li,
+ul {
+	padding: 10px;
+}
+
+.resume-section img {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+/* Carousel Style */
+.carousel-inner p {
+	font-size: larger;
+}
+
+.carousel .card {
+	border: none;
+}
+
+/* Form Style */
+#contact .row {
+	justify-content: center;
+	padding: 10px;
+}
+
+#contact input {
+	margin: 10px;
 }
