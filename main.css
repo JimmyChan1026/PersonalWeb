@@ -9,10 +9,6 @@
 	font-family: "Josefin Sans", sans-serif;
 }
 
-body {
-	background-color: #f3f5f9;
-}
-
 .wrapper {
 	display: flex;
 	position: relative;
@@ -35,7 +31,6 @@ body {
 
 .nav-item {
 	padding: 15px;
-	/* border-bottom: 1px solid #bdb8d7; */
 	border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 	border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
@@ -43,6 +38,7 @@ body {
 a {
 	color: #bdb8d7;
 	display: block;
+	text-decoration: none;
 }
 
 .fas {
@@ -50,6 +46,7 @@ a {
 }
 
 .nav-item:hover {
+	text-decoration: underline;
 	background-color: #594f8d;
 }
 
@@ -72,10 +69,48 @@ a {
 	margin-right: auto;
 	margin-bottom: 20px;
 	border-radius: 20px;
+	border: 6px double black;
 }
 
+.row1 > * {
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid white;
+	padding: 10px;
+	width: auto;
+	text-align: center;
+}
+
+.row2 > * {
+	margin: auto;
+	border: 1px solid white;
+	text-align: center;
+}
+
+.beavertonfoods,
+.worker,
+.restaurant,
+.Dgame,
+.fitness,
+.appt {
+	border-radius: 90px;
+	border: 6px double black;
+}
+
+.beavertonfoods:hover,
+.worker:hover,
+.restaurant:hover,
+.Dgame:hover,
+.fitness:hover,
+.appt:hover {
+	transform: scale(1.2);
+}
+
+.DgameD,
+.fit,
+.apptM,
 .intro {
-	text-align: left;
+	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 20px;
