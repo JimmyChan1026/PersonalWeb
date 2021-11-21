@@ -22,11 +22,10 @@ form.style.marginLeft = "auto";
 form.style.marginRight = "auto";
 form.style.fontFamily = "Open Sans, Helvetica Neue, sans-serif";
 form.style.marginBottom = "100px";
-form.style.backgroundColor = "#a8a8a8";
+form.style.backgroundColor = "#d1d1d1";
 
 let labels = document.getElementsByTagName("label");
 for (label of labels) {
-    label.style.color = "#fcfcfc";
     label.style.fontSize = "30px";
 }
 
