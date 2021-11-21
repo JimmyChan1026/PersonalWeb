@@ -17,13 +17,13 @@
 .sidebar {
 	width: 200px;
 	height: 100%;
-	background: #272531;
+	background: #d1d1d1;
 	padding: 30px 0px;
 	position: fixed;
 }
 
-.wrapper .sidebar h2 {
-	color: #fff;
+.sidebar h2 {
+	color: #040404;
 	text-transform: uppercase;
 	text-align: center;
 	margin-bottom: 30px;
@@ -36,7 +36,7 @@
 }
 
 a {
-	color: #bdb8d7;
+	color: #040404;
 	display: block;
 	text-decoration: none;
 }
@@ -47,7 +47,7 @@ a {
 
 .nav-item:hover {
 	text-decoration: underline;
-	background-color: #594f8d;
+	background-color: #000000;
 }
 
 .nav-item:hover a {
