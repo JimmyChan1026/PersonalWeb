@@ -26,4 +26,5 @@ form.addEventListener('submit', handleSubmit);
 
 function handleSubmit(event) {
     event.preventDefault();
+    alert("Thanks for filling up the form!");
 }
